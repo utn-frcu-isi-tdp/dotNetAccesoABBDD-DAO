@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ej2.Persistencia
 {
-    class DAOException : Exception
+    
+    /// <summary>
+    /// Excepción que representa un error en la capa DAO
+    /// </summary>
+    public class DAOException : Exception
     {
        
         public DAOException(string pDescription, Exception pException): base(pDescription, pException)
