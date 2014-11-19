@@ -22,14 +22,8 @@ namespace Ej2.Controladores
 
                 mFactory.IniciarConexion();
              
-                mFactory.LibroDAO.Obtener();
+                return mFactory.LibroDAO.Obtener();
 
-            }
-            catch(Exception e)
-            {
-                mFactory.RollBack();
-
-                throw e;
             }
             finally
             {

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Ej2.Persistencia.LocalDB;
+
 namespace Ej2.Persistencia
 {
     public abstract class DAOFactory
@@ -20,7 +22,7 @@ namespace Ej2.Persistencia
        {
            get
            {
-               return null;
+               return new LocalDBDAOFactory();
            }
        }
     
