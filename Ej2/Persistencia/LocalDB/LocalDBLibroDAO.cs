@@ -96,5 +96,25 @@ namespace Ej2.Persistencia.LocalDB
         {
             throw new NotImplementedException();
         }
+
+        void ILibroDAO.Insertar(LibroDTO pLibroDTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        IList<LibroDTO> ILibroDAO.Obtener()
+        {
+            throw new NotImplementedException();
+        }
+
+        void ILibroDAO.Actualizar(LibroDTO pLibroDTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ILibroDAO.Borrar(LibroDTO pLibroDTO)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

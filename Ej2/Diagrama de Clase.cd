@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Ej2.Controladores.FachadaABMLibro">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controladores\FachadaABMLibro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ej2.DTO.LibroDTO">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DTO\LibroDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ej2.Persistencia.DAOException">
+    <Position X="9" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistencia\DAOException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ej2.Persistencia.DAOFactory">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAACAAAAAAAEAAAAAgAAAAAAAAAAAAACEAAA=</HashCode>
+      <FileName>Persistencia\DAOFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ej2.Persistencia.LocalDB.LocalDBDAOFactory">
+    <Position X="5.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAAAAAAAEAABAAgAAAAAAAAAAAAACEIAI=</HashCode>
+      <FileName>Persistencia\LocalDB\LocalDBDAOFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ej2.Persistencia.LocalDB.LocalDBLibroDAO">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAQAAEAAAAAAAAAAAIAAAAAIAAQAgAAAAAI=</HashCode>
+      <FileName>Persistencia\LocalDB\LocalDBLibroDAO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" />
+  </Class>
+  <Interface Name="Ej2.Persistencia.ILibroDAO">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAAAAAAAAAAAIAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Persistencia\ILibroDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
